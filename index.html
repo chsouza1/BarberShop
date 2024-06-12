@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link font-awesome e css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/header.css">
+
+    <title>Barber Shop Website</title>
+</head>
+<body>
+    <!-- topo da página com o menu de navegação -->
+    <header>
+        <nav id="navbar">
+            <div class="nav-logo">
+                <i class="fa-solid fa-shop"></i>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item-active">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Avaliações</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Sobre nós</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Agendar horário
+            </button>
+
+            <!-- botão para página responsiva / mobile -->
+            <button class="btn-mobile">
+                <i class="fa-solid fa-bars"></i></i>
+            </button>
+        </nav>
+
+        <!-- menu responsivo / mobile -->
+        <div id="mobile_menu">
+            <ul class="nav-list-mobile">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Avaliações</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Sobre nós</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Agendar horário
+            </button>
+        </div>
+    </header>
+
+    <!-- tela principal da landing page -->
+    <main id="content">
+
+        <!-- parte principal com título e descrição da página -->
+        <section id="hero">
+            <div class="left-section"></div>
+
+            <h2 class="title">
+                Barber Shop
+            </h2>
+            <p class="description">
+                Combinamos tradição e modernidade, oferecendo cortes clássicos e estilos contemporâneos. Nossos barbeiros são especialistas e utilizam produtos de alta qualidade, proporcionando um ambiente acolhedor e sofisticado para garantir seu conforto e satisfação.
+            </p>
+
+            <img src="src/images/barbershop.jpg" alt="">
+        </section>
+
+        <!-- seção de avaliações e depoimentos de clientes -->
+        <section id="testimonials">
+            <p class="testimonials-title">
+                Avaliações
+            </p>
+
+            <h2 class="testimonials-description">
+                Confira as avaliações e descubra por que somos a escolha preferida de muitos
+            </h2>
+
+            <div class="items-testimonials">
+                <!-- primeiro cliente -->
+                <div class="item">
+                    <img src="src/images/man1.jpg" alt="Foto de cliente">
+
+                    <p class="name">
+                        Gustavo Almeida
+
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+                    <p class="testimonial">
+                        Serviço excelente! Os barbeiros são muito atenciosos e os cortes sempre ficam perfeitos. Recomendo a todos!
+                    </p>
+                </div>
+
+                <!-- segundo cliente -->
+                <div class="item">
+                    <img src="src/images/man2.jpg" alt="Foto de cliente">
+
+                    <p class="name">
+                        Felipe Costa
+
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+                    <p class="testimonial">
+                        Ambiente incrível e profissionais de primeira. Saio sempre satisfeito e com um visual impecável.
+                    </p>
+                </div>
+
+                <!-- terceiro cliente -->
+                <div class="item">
+                    <img src="src/images/man3.jpg" alt="Foto de cliente">
+
+                    <p class="name">
+                        Leonardo Nunes
+
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+                    <p class="testimonial">
+                        Melhor barbearia da cidade! Qualidade nos produtos e um atendimento diferenciado. Vale cada visita.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer da landing page / faltam ajustes -->
+        <footer>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">&copy 2024 Grupo XXX</a>
+        </footer>
+    </main>
+</body>
+</html>
