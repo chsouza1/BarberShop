@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+  }
+  input[type="date"],
+  input[type="time"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
