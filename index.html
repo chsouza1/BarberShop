@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/custom.css">
 
     <title>Barber Shop Website</title>
 </head>
@@ -26,21 +27,21 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#">Avaliações</a>
+                    <a href="ava.html">Avaliações</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#">Sobre nós</a>
+                    <a href="sobre.html">Sobre nós</a>
                 </li>
             </ul>
 
-            <button class="btn-default" onclick="redirectToAgendamento()">
-                Agendar horário
+            <button class="btn-default">
+                <a href="src/agendamento/agendamento.html">Agendar horário</a> 
             </button>
 
             <!-- botão para página responsiva / mobile -->
             <button class="btn-mobile">
-                <i class="fa-solid fa-bars"></i></i>
+                <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
 
@@ -60,8 +61,8 @@
                 </li>
             </ul>
 
-            <button class="btn-default" onclick="redirectToAgendamento()">
-                Agendar horário
+            <button class="btn-default">
+                <a href="src/agendamento/agendamento.html">Agendar horário</a> 
             </button>
         </div>
     </header>
@@ -71,16 +72,18 @@
 
         <!-- parte principal com título e descrição da página -->
         <section id="hero">
-            <div class="left-section"></div>
+            <div class="hero-content">
+                <div class="left-section">
+                    <h2 class="title">
+                        Bem-vindo à Barber Shop
+                    </h2>
+                    <p class="description">
+                        Na Barber Shop, tradição e modernidade se encontram. Oferecemos cortes clássicos e estilos contemporâneos, realizados por barbeiros especialistas que utilizam produtos de alta qualidade. Nosso ambiente é acolhedor e sofisticado, garantindo conforto e satisfação em cada visita.
+                    </p>
+                </div>
 
-            <h2 class="title">
-                Barber Shop
-            </h2>
-            <p class="description">
-                Combinamos tradição e modernidade, oferecendo cortes clássicos e estilos contemporâneos. Nossos barbeiros são especialistas e utilizam produtos de alta qualidade, proporcionando um ambiente acolhedor e sofisticado para garantir seu conforto e satisfação.
-            </p>
-
-            <img src="src/images/barbershop.jpg" alt="">
+                <img src="src/images/barbershop.jpg" alt="Barber Shop">
+            </div>
         </section>
 
         <!-- seção de avaliações e depoimentos de clientes -->
@@ -133,13 +136,13 @@
                         Ambiente incrível e profissionais de primeira. Saio sempre satisfeito e com um visual impecável.
                     </p>
                 </div>
-
+                
                 <!-- terceiro cliente -->
                 <div class="item">
                     <img src="src/images/man3.jpg" alt="Foto de cliente">
-
+                    
                     <p class="name">
-                        Leonardo Nunes
+                        Ricardo Silva
 
                         <span>
                             <i class="fa-solid fa-star"></i>
@@ -150,18 +153,15 @@
                         </span>
                     </p>
                     <p class="testimonial">
-                        Melhor barbearia da cidade! Qualidade nos produtos e um atendimento diferenciado. Vale cada visita.
+                        Melhor barbearia da cidade! Atendimento excelente e ambiente super agradável. Recomendo a todos.
                     </p>
                 </div>
             </div>
         </section>
-
-        <!-- footer da landing page / faltam ajustes -->
-        <footer>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">&copy 2024 Grupo XXX</a>
-        </footer>
     </main>
+
+    <footer>
+        <p>© 2024 Barber Shop | ATP1 - PUCPR -  Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,113 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8%;
+    color: var(--text-color);
+}
+
+.left-section {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px; /* Ajuste de tamanho */
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px; /* Ajuste de tamanho */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#hero img {
+    max-width: 500px; /* Ajuste de tamanho */
+    border-radius: 8px;
+}
+
+#testimonials {
+    padding: 50px 8%;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.testimonials-title {
+    font-size: 36px; /* Ajuste de tamanho */
+    margin-bottom: 20px;
+}
+
+.testimonials-description {
+    font-size: 18px; /* Ajuste de tamanho */
+    margin-bottom: 40px;
+}
+
+.items-testimonials {
+    display: flex;
+    gap: 20px; /* Ajuste de tamanho */
+}
+
+.item {
+    background-color: var(--header-bg-color);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.item img {
+    width: 100px; /* Ajuste de tamanho */
+    height: 100px; /* Ajuste de tamanho */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 16px; /* Ajuste de tamanho */
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    font-size: 14px; /* Ajuste de tamanho */
+}
+
+/* Responsividade para seções */
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 32px; /* Ajuste de tamanho */
+    }
+
+    .description {
+        font-size: 16px; /* Ajuste de tamanho */
+    }
+
+    #hero img {
+        max-width: 100%;
+    }
+
+    .items-testimonials {
+        flex-direction: column;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+footer {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    padding: 20px;
+    background-color: var(--header-bg-color);  /* Cor de fundo do footer */
+    color: var(--text-color);  /* Cor do texto do footer */
+}
+
