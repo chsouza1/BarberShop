@@ -118,8 +118,8 @@ main #content {
 /* Estilos da Seção de Avaliações */
 #testimonials {
     padding: 50px 8%;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+    color: #262626;
+    background-color: #fff;
 }
 
 .testimonials-title {
@@ -138,7 +138,7 @@ main #content {
 }
 
 .item {
-    background-color: var(--header-bg-color);
+    background-color: #262626;
     border-radius: 8px;
     padding: 20px;
     flex: 1;
@@ -148,7 +148,8 @@ main #content {
 .item img {
     width: 100px; /* Ajuste de tamanho */
     height: 100px; /* Ajuste de tamanho */
-    border-radius:
+    object-fit: cover;
+} 
 
 body {
     font-family: Arial, sans-serif;
@@ -195,3 +196,14 @@ h1 {
     color: #999;
 }
 
+/* Estilo do footer */
+footer {
+    background-color: #262626;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    color: #cecece;
+}

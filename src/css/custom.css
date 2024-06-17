@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 8%;
-    color: var(--text-color);
+    color: #000;
 }
 
 .left-section {
@@ -28,8 +28,8 @@
 
 #testimonials {
     padding: 50px 8%;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+    color: #262626;
+    background-color: #f7f7f7;
 }
 
 .testimonials-title {
@@ -48,7 +48,7 @@
 }
 
 .item {
-    background-color: var(--header-bg-color);
+    background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
     flex: 1;
@@ -98,8 +98,6 @@
     .item {
         margin-bottom: 20px;
     }
-
-   
 }
 
 footer {
@@ -107,7 +105,7 @@ footer {
     justify-content: center;  /* Centraliza horizontalmente */
     align-items: center;  /* Centraliza verticalmente */
     padding: 20px;
-    background-color: var(--header-bg-color);  /* Cor de fundo do footer */
-    color: var(--text-color);  /* Cor do texto do footer */
+    background-color: #262626;  /* Cor de fundo do footer */
+    color: #f0f0f0;  /* Cor do texto do footer */
 }
 

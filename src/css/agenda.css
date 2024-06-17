@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fffefe;
+    background-color: #f0f0f0;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -101,6 +101,7 @@ h1 {
 .form-group {
     display: flex;
     flex-direction: column;
+    padding: 10px
 }
 
 label {
@@ -117,6 +118,7 @@ input {
 }
 
 button {
+    margin-top: 18px;
     padding: 10px;
     background-color: #f0a500;
     color: #1f1f1f;
