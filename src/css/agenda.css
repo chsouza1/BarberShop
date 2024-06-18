@@ -1,4 +1,3 @@
-/* Fonte e reset */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
@@ -16,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* Estilo do header */
 header {
     width: 100%;
     padding: 20px 8%;
@@ -71,7 +69,6 @@ header {
     display: none;
 }
 
-/* Estilos do formulário */
 main {
     flex: 1;
     display: flex;
@@ -132,7 +129,6 @@ button:hover {
     background-color: #d49100;
 }
 
-/* Estilo do footer */
 footer {
     background-color: #262626;
     padding: 20px 0;
