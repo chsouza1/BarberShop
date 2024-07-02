@@ -27,16 +27,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="ava.html">Avaliações</a>
+                    <a href="ava.php">Avaliações</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="about.html">Sobre nós</a>
+                    <a href="about.php">Sobre nós</a>
                 </li>
             </ul>
 
             <button class="btn-default">
-                <a href="form.html">Agendar horário</a> 
+                <a href="form.php">Agendar horário</a> 
             </button>
 
             <!-- botão para página responsiva / mobile -->
@@ -62,7 +62,7 @@
             </ul>
 
             <button class="btn-default">
-                <a href="form.html">Agendar horário</a> 
+                <a href="form.php">Agendar horário</a> 
             </button>
         </div>
     </header>
